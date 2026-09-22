@@ -1,0 +1,94 @@
+{
+  "user": {
+    "id": "user_1234",
+    "name": "Rehyara",
+    "currency": "USD"
+  },
+  "summary": {
+    "total_expenses":550.00 ,
+    "monthly_budget":1300000.00
+  },
+  "expenses": [
+    {
+      "id": "exp_001",
+      "date": "2026-09-01",
+      "category": "Books & Journals",
+      "description": "Keep sake",
+      "amount": 10000.00,
+      "payment_method": "Bank Transfer",
+      "status": "Completed"
+    },
+    {
+      "id": "exp_002",
+      "date": "2026-09-02",
+      "category": "Shopping",
+      "description": "Shoes",
+      "amount": 50000.00,
+      "payment_method": "Bank Transfer",
+      "status": "Completed"
+    },
+    {
+      "id": "exp_003",
+      "date": "2026-09-04",
+      "category": "Utilities",
+      "description": "Electric & Water Bill",
+      "amount": 8000.00,
+      "payment_method": "Auto Debit",
+      "status": "Completed"
+    },
+    {
+      "id": "exp_004",
+      "date": "2026-09-05",
+      "category": "Entertainment",
+      "description": "Spotify subscription",
+      "amount": 1200.00,
+      "payment_method": "Auto Debit",
+      "status": "Pending"
+    },
+    {
+      "id": "exp_007",
+      "date": "2026-09-10",
+      "category": "Electronics & gadgets",
+      "description": "Apple devices",
+      "amount": 900000.00,
+      "payment_method": "Credit Card",
+      "status": "Completed"
+    },
+    {
+      "id": "exp_004",
+      "date": "2026-09-12",
+      "category": "Provisions",
+      "description": "household food stuff",
+      "amount": 85000.00,
+      "payment_method": "Transfer",
+      "status": "Completed"
+    },
+    {
+      "id": "exp_004",
+      "date": "2026-09-18",
+      "category": "Aesthetics",
+      "description": "Room decoration",
+      "amount": 15000.00,
+      "payment_method": "Credit Card",
+      "status": "Pending"
+    },
+    {
+      "id": "exp_004",
+      "date": "2026-09-23",
+      "category": "Extensions",
+      "description": "Hair extension bundles",
+      "amount": 35000.00,
+      "payment_method": "Credit Card",
+      "status": "Completed"
+    },
+    {
+      "id": "exp_004",
+      "date": "2026-09-05",
+      "category": "Internet",
+      "description": "Wi-Fi Subscription",
+      "amount": 20000.00,
+      "payment_method": "Auto Debit",
+      "status": "Completed"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="side-bar">
+        <h1>Sidebar</h1>
+        <ul>
+            <li>
+                <a href="expenses.html">Expenses</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="dashboard-container">
+        <h2>Welcome back, <span id="user-name">Loading...</span></h2>
+        <p>Total Spent: <strong id="total-expenses">$0.00</strong></p>
+ 
+        <div id="summary-cards">
+    <div class = cardss>
+    <div class="card">
+        <h3>Total Expenses</h3>
+        <p id="total-expenses-card">$0</p>
+    </div>
+    
+
+    <div class="card-budg">
+        <h3>Monthly Budget</h3>
+        <p id="monthly-budget-card">$0</p>
+    </div>
+    </div>
+
+     <div>
+        <a href="expenses.html">Expenses Page</a>
+
+     <button popovertarget = "expense-modal">Add expenses</button> </div>
+</div>
+   
+
+    <div popover id = "expense-modal">
+        <div class = "modal-content">
+        <h2>Add Expense</h2>
+       
+        <form id="expense-form"></form>
+          
+          <label for="date">DATE:</label>
+          <input type="date" id="Date">
+    <br>
+          <label for="Category">CATEGORY</label>
+          
+          <select id="category">
+            <option>Shopping</option>
+            <option>Utilities</option>
+            <option>Electronics & Gadgets</option>
+            <option>Provisions</option>
+            <option>Aesthetics</option>
+            <option>Extensions</option>
+            <option>Internet</option>
+            </select>
+
+    <br>
+            <label for="Description">Description:</label>
+            <input type = "text" id="Description" placeholder="Description">
+    <br>
+
+            <label for="Payement method">Payment method</label>
+            <select id="payment">
+                <option>Bank Transfer</option>
+                <option>Credit card</option>
+                <option>Auto debit</option>
+                <option>Other</option>
+
+            </select>
+<br>
+            <label for = "number">Amount:</label>
+            <input type = "text" id="Amount" placeholder="Amount">
+            
+<br>
+            
+            <label for ="Status">Status:</label>
+            <input type = "text" id="Status" placeholder="Status">
+            
+             <input type="submit" value="Submit">
+
+        </div>
+    </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Payment Method</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="expenses-table-body">
+                <tr>
+                    <td colspan="6">Loading expenses...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+ 
+    <script src="dashboard.js"></script>
+</body>
+</html>
+ 

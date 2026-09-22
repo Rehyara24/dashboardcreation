@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ body{
+    background: linear-gradient(to right, rgb(240, 238, 240), rgb(165, 211, 231));
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: row;
+    
+ }
+ h1{
+    margin-bottom: 15px;
+ }
+table, th, td {
+    margin: 0 auto;
+      border: 1px solid black;
+      width: 1150px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 5px;
+      border-collapse: collapse;
+      background: linear-gradient(to right, rgb(240, 238, 240), rgb(165, 211, 231));
+    
+
+}
+
+button{
+  color: rgb(149, 185, 185);
+  height: 30px;
+  width: 80px;
+
+}
+
+.dash-board{
+    display: flex;
+    gap: 800px;
+    
+}
+
+#summary-cards{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+
+    
+}
+
+.card{
+    padding: 20px;
+    background-color: rgb(90, 143, 187);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.cardss{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.card-budg{
+    padding: 20px;
+    background-color: rgb(90, 143, 187);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(90, 143, 187);
+    color: azure;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    color: rgb(180, 143, 187);
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding:30px;
+    
+}
+
+#expense-modal{
+    margin:0 auto;
+    
+}
+
+input [type="date"]{
+    
+}
+
+input[type="submit"]{
+      background-color: rgb(90, 143, 187);
+    color: azure;
+    border-radius: 10px;
+}
+
+#dashboard-container{
+    padding: 20px;
+}
